@@ -37,7 +37,7 @@ query: $(QUERY_OBJS)
 
 # Convenience: run a small end-to-end test
 SEED    ?= https://en.wikipedia.org/wiki/Operating_system
-DEPTH   ?= 1
+DEPTH   ?= 3
 PAGES   ?= 20
 THREADS ?= 4
 IPC     ?= /tmp/crawl.sock

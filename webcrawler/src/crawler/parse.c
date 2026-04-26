@@ -4,8 +4,29 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdio.h>
+#include <strings.h>
 
 /* ── text extraction ─────────────────────────────────────────────── */
+
+
+static const char *my_strcasestr(const char *haystack, const char *needle) {
+    if (*needle == '\0') return haystack;
+
+    for (; *haystack; haystack++) {
+        const char *h = haystack;
+        const char *n = needle;
+
+        while (*h && *n &&
+               tolower((unsigned char)*h) == tolower((unsigned char)*n)) {
+            h++;
+            n++;
+        }
+
+        if (*n == '\0') return haystack;
+    }
+
+    return NULL;
+}
 
 char *html_extract_text(const char *html, size_t html_len) {
     char *out = malloc(html_len + 1);
@@ -111,12 +132,12 @@ link_node_t *html_extract_links(const char *html, size_t html_len,
 
     while (p < end) {
         /* Find <a */
-        const char *tag = strcasestr(p, "<a ");
+        const char *tag = my_strcasestr(p, "<a ");
         if (!tag) break;
         p = tag + 3;
 
         /* Find href=" or href=' */
-        const char *href_attr = strcasestr(p, "href=");
+        const char *href_attr = my_strcasestr(p, "href=");
         const char *close_tag = strchr(p, '>');
         if (!href_attr || (close_tag && href_attr > close_tag)) {
             p = close_tag ? close_tag + 1 : end;

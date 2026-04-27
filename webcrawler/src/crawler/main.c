@@ -35,6 +35,7 @@ typedef struct {
     int             ipc_fd;
 
     atomic_int pages_fetched;
+    atomic_int pages_scheduled;
     atomic_int pages_skipped;
     atomic_int pages_failed;
     atomic_uint next_docid;
@@ -56,6 +57,9 @@ static void *worker(void *arg) {
 
         /* Check page limit */
         int fetched = atomic_fetch_add(&st->pages_fetched, 1);
+        if (atomic_load(&st->pages_scheduled) >= cfg->max_pages) {
+            queue_shutdown(&st->queue);
+        }
         if (fetched >= cfg->max_pages) {
             atomic_fetch_sub(&st->pages_fetched, 1);
             atomic_fetch_add(&st->pages_skipped, 1);
@@ -103,10 +107,15 @@ static void *worker(void *arg) {
             for (link_node_t *ln = links; ln; ln = ln->next) {
                 if (visited_check_and_insert(&st->visited, ln->url) == 0) {
                     /* Check page limit before enqueuing */
-                    int cur = atomic_load(&st->pages_fetched);
-                    if (cur < cfg->max_pages)
+                    int scheduled = atomic_fetch_add(&st->pages_scheduled, 1);
+
+                    if (scheduled < cfg->max_pages) {
                         queue_push(&st->queue, ln->url, depth + 1);
+                    } else {
+                        atomic_fetch_sub(&st->pages_scheduled, 1);
+                    }
                 }
+            //links_free(links);
             }
             links_free(links);
         }
@@ -192,6 +201,7 @@ int main(int argc, char **argv) {
     st.cfg    = &cfg;
     st.ipc_fd = ipc_fd;
     atomic_init(&st.pages_fetched, 0);
+    atomic_init(&st.pages_scheduled, 1);
     atomic_init(&st.pages_skipped, 0);
     atomic_init(&st.pages_failed,  0);
     atomic_init(&st.next_docid,    0);

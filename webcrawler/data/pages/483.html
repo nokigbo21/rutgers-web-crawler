@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Netfilter - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ce179616-45b7-409a-ad65-3faa5b639329","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Netfilter","wgTitle":"Netfilter","wgCurRevisionId":1322325353,"wgRevisionId":1322325353,"wgArticleId":1003802,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description matches Wikidata","Pages using Infobox software with version errors","Official website different in Wikidata and Wikipedia","Firewall software","Free network-related software","Free security software","Linux kernel features"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Netfilter","wgRelevantArticleId":1003802,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditHCaptchaVisualEditorOnLoadIntegrationEnabled":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q1545633","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGESuggestedEditsTaskTypes":{"taskTypes":["copyedit","link-recommendation"],"unavailableTaskTypes":[]},"wgGETopicsMatchModeEnabled":false,"wgGELevelingUpEnabledForUser":false,"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]}};
+RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.wikimediamessages.styles":"ready","ext.cite.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.parsermigration.survey","ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.quicksurveys.init","ext.growthExperiments.SuggestedEditSession","ext.testKitchen"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.46.0-wmf.24">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="Netfilter - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Netfilter&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Netfilter">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Netfilter rootpage-Netfilter skin-vector-2022 action-view">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/enwiki-25.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg" style="width: 8.75em; height: 1.375em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en-25.svg" width="140" height="11" style="width: 8.75em; height: 0.6875em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="none" spellcheck="false" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" class=" cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet"><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart"></span>
+
+<span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=Netfilter" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=Netfilter" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out user-links-collapsible-item"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart"></span>
+
+<span>Donate</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=Netfilter" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span>
+
+<span>Create account</span></a>
+</li>
+<li id="pt-login" class="mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=Netfilter" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span>
+
+<span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-History"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#History">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>History</span>
+			</div>
+		</a>
+		
+		<ul id="toc-History-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Userspace_utility_programs"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Userspace_utility_programs">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>Userspace utility programs</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-Userspace_utility_programs-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Userspace utility programs subsection</span>
+			</button>
+		
+		<ul id="toc-Userspace_utility_programs-sublist" class="vector-toc-list">
+			<li id="toc-iptables"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#iptables">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">2.1</span>
+					<span>iptables</span>
+				</div>
+			</a>
+			
+			<ul id="toc-iptables-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-nftables"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#nftables">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">2.2</span>
+					<span>nftables</span>
+				</div>
+			</a>
+			
+			<ul id="toc-nftables-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Packet_defragmentation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Packet_defragmentation">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>Packet defragmentation</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Packet_defragmentation-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Connection_tracking"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Connection_tracking">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>Connection tracking</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-Connection_tracking-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Connection tracking subsection</span>
+			</button>
+		
+		<ul id="toc-Connection_tracking-sublist" class="vector-toc-list">
+			<li id="toc-Connection_tracking_helpers"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Connection_tracking_helpers">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">4.1</span>
+					<span>Connection tracking helpers</span>
+				</div>
+			</a>
+			
+			<ul id="toc-Connection_tracking_helpers-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Network_address_translation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Network_address_translation">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>Network address translation</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-Network_address_translation-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Network address translation subsection</span>
+			</button>
+		
+		<ul id="toc-Network_address_translation-sublist" class="vector-toc-list">
+			<li id="toc-NAT_helpers"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#NAT_helpers">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">5.1</span>
+					<span>NAT helpers</span>
+				</div>
+			</a>
+			
+			<ul id="toc-NAT_helpers-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Further_Netfilter_projects"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Further_Netfilter_projects">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>Further Netfilter projects</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-Further_Netfilter_projects-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Further Netfilter projects subsection</span>
+			</button>
+		
+		<ul id="toc-Further_Netfilter_projects-sublist" class="vector-toc-list">
+			<li id="toc-conntrack-tools"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#conntrack-tools">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">6.1</span>
+					<span>conntrack-tools</span>
+				</div>
+			</a>
+			
+			<ul id="toc-conntrack-tools-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-ipset"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#ipset">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">6.2</span>
+					<span>ipset</span>
+				</div>
+			</a>
+			
+			<ul id="toc-ipset-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-SYN_proxy"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#SYN_proxy">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">6.3</span>
+					<span>SYN proxy</span>
+				</div>
+			</a>
+			
+			<ul id="toc-SYN_proxy-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-ulogd"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#ulogd">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">6.4</span>
+					<span>ulogd</span>
+				</div>
+			</a>
+			
+			<ul id="toc-ulogd-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Userspace_libraries"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Userspace_libraries">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">6.5</span>
+					<span>Userspace libraries</span>
+				</div>
+			</a>
+			
+			<ul id="toc-Userspace_libraries-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Netfilter_workshops"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Netfilter_workshops">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">7</span>
+				<span>Netfilter workshops</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Netfilter_workshops-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">8</span>
+				<span>See also</span>
+			</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">9</span>
+				<span>References</span>
+			</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">10</span>
+				<span>External links</span>
+			</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="en" dir="ltr"><span class="mw-page-title-main">Netfilter</span></span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 17 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-17" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">17 languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%86%D8%AA_%D9%81%D9%8A%D9%84%D8%AA%D8%B1" title="نت فيلتر – Arabic" lang="ar" hreflang="ar" data-title="نت فيلتر" data-language-autonym="العربية" data-language-local-name="Arabic" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Netfilter" title="Netfilter – Czech" lang="cs" hreflang="cs" data-title="Netfilter" data-language-autonym="Čeština" data-language-local-name="Czech" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Netfilter" title="Netfilter – German" lang="de" hreflang="de" data-title="Netfilter" data-language-autonym="Deutsch" data-language-local-name="German" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Netfilter" title="Netfilter – Spanish" lang="es" hreflang="es" data-title="Netfilter" data-language-autonym="Español" data-language-local-name="Spanish" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Netfilter" title="Netfilter – Finnish" lang="fi" hreflang="fi" data-title="Netfilter" data-language-autonym="Suomi" data-language-local-name="Finnish" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Netfilter" title="Netfilter – French" lang="fr" hreflang="fr" data-title="Netfilter" data-language-autonym="Français" data-language-local-name="French" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/Netfilter" title="Netfilter – Hebrew" lang="he" hreflang="he" data-title="Netfilter" data-language-autonym="עברית" data-language-local-name="Hebrew" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Netfilter" title="Netfilter – Italian" lang="it" hreflang="it" data-title="Netfilter" data-language-autonym="Italiano" data-language-local-name="Italian" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%84%B7%ED%95%84%ED%84%B0" title="넷필터 – Korean" lang="ko" hreflang="ko" data-title="넷필터" data-language-autonym="한국어" data-language-local-name="Korean" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Netfilter" title="Netfilter – Latvian" lang="lv" hreflang="lv" data-title="Netfilter" data-language-autonym="Latviešu" data-language-local-name="Latvian" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a href="https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A5%87%E0%A4%9F%E0%A4%AB%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%9F%E0%A4%B0" title="नेटफिल्टर – Marathi" lang="mr" hreflang="mr" data-title="नेटफिल्टर" data-language-autonym="मराठी" data-language-local-name="Marathi" class="interlanguage-link-target"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Netfilter" title="Netfilter – Dutch" lang="nl" hreflang="nl" data-title="Netfilter" data-language-autonym="Nederlands" data-language-local-name="Dutch" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Netfilter" title="Netfilter – Norwegian Bokmål" lang="nb" hreflang="nb" data-title="Netfilter" data-language-autonym="Norsk bokmål" data-language-local-name="Norwegian Bokmål" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Netfilter" title="Netfilter – Polish" lang="pl" hreflang="pl" data-title="Netfilter" data-language-autonym="Polski" data-language-local-name="Polish" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Netfilter" title="Netfilter – Portuguese" lang="pt" hreflang="pt" data-title="Netfilter" data-language-autonym="Português" data-language-local-name="Portuguese" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/Netfilter" title="Netfilter – Russian" lang="ru" hreflang="ru" data-title="Netfilter" data-language-autonym="Русский" data-language-local-name="Russian" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/Netfilter" title="Netfilter – Chinese" lang="zh" hreflang="zh" data-title="Netfilter" data-language-autonym="中文" data-language-local-name="Chinese" class="interlanguage-link-target"><span>中文</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1545633#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar vector-feature-custom-font-size-clientpref--excluded">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Netfilter" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Netfilter" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Netfilter"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Netfilter&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Netfilter&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Netfilter"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Netfilter&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Netfilter&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Netfilter" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Netfilter" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Netfilter&amp;oldid=1322325353" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Netfilter&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Netfilter&amp;id=1322325353&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNetfilter"><span>Get shortened URL</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Netfilter&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Netfilter&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Netfilter" hreflang="en"><span>Wikimedia Commons</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1545633" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<div class="wp25eastereggs-vector-sitenotice-landmark"></div>
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-subjectpageheader">
+</div><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Packet alteration framework for Linux and the umbrella project for software of the same</div>
+<style data-mw-deduplicate="TemplateStyles:r1316064257">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class="infobox vevent"><tbody><tr><th colspan="2" class="infobox-above summary">Netfilter</th></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;">Initial release</th><td class="infobox-data">26&#160;August 1999<span class="noprint">&#59;&#32;26 years ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">1999-08-26</span>)</span> (Linux 2.3.15)</td></tr><tr style="display: none;"><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1316064257" /></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Stable release</a></th><td class="infobox-data"><div style="margin:0px;">7.0.1<sup id="cite&#95;ref-wikidata-792d25ac98583d4917e5916e9a6ed8578415142c-v20&#95;1-0" class="reference"><a href="#cite_note-wikidata-792d25ac98583d4917e5916e9a6ed8578415142c-v20-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup>&#160;<span class="mw-valign-text-top" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q14579?uselang=en#P348" title="Edit this on Wikidata"><img alt="Edit this on Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" data-file-width="20" data-file-height="20" /></a></span>
+   / 22 April 2026<span class="noprint">&#59;&#32;5 days ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">22 April 2026</span>)</span></div></td></tr><tr style="display:none"><td colspan="2">
+</td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;">Written in</th><td class="infobox-data"><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;"><a href="/wiki/Operating_system" title="Operating system">Operating system</a></th><td class="infobox-data"><a href="/wiki/Linux" title="Linux">Linux</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;"><a href="/wiki/Software_categories#Categorization_approaches" title="Software categories">Type</a></th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist"><ul><li><a href="/wiki/Linux_kernel_module" class="mw-redirect" title="Linux kernel module">Linux kernel module</a></li><li><a href="/wiki/Packet_filter" class="mw-redirect" title="Packet filter">Packet filter</a>/firewall</li></ul></div></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;"><a href="/wiki/Software_license" title="Software license">License</a></th><td class="infobox-data"><a href="/wiki/GNU_GPL" class="mw-redirect" title="GNU GPL">GNU&#160;GPL</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;">Website</th><td class="infobox-data"><span class="url"><a rel="nofollow" class="external text" href="https://netfilter.org">netfilter<wbr />.org</a></span></td></tr></tbody></table> 
+<p><b>Netfilter</b> is a <a href="/wiki/Software_framework" title="Software framework">framework</a> provided by the <a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a> that allows various <a href="/wiki/Computer_network" title="Computer network">networking</a>-related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for <a href="/wiki/Packet_filter" class="mw-redirect" title="Packet filter">packet filtering</a>, <a href="/wiki/Network_address_translation" title="Network address translation">network address translation</a>, and <a href="/wiki/Port_translation" class="mw-redirect" title="Port translation">port translation</a>, which provide the functionality required for directing packets through a network and <a href="/wiki/Firewall_(computing)" title="Firewall (computing)">prohibiting</a> packets from reaching sensitive locations within a network.
+</p><p>Netfilter represents a set of <a href="/wiki/Hooking" title="Hooking">hooks</a> inside the Linux kernel, allowing specific <a href="/wiki/Kernel_module" class="mw-redirect" title="Kernel module">kernel modules</a> to register <a href="/wiki/Callback_(computer_programming)" title="Callback (computer programming)">callback</a> functions with the kernel's networking stack. Those functions, usually applied to the traffic in the form of filtering and modification rules, are called for every packet that traverses the respective hook within the networking stack.<sup id="cite&#95;ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<div class="mw-heading mw-heading2"><h2 id="History">History</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=1" title="Edit section: History"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<figure typeof="mw:File/Thumb"><a href="/wiki/File:Netfilter-components.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Netfilter-components.svg/330px-Netfilter-components.svg.png" decoding="async" width="300" height="169" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Netfilter-components.svg/960px-Netfilter-components.svg.png 2x" data-file-width="710" data-file-height="400" /></a><figcaption>Relation of (some of) the different Netfilter components</figcaption></figure>
+<p><a href="/wiki/Rusty_Russell" title="Rusty Russell">Rusty Russell</a> started the <i>netfilter/iptables project</i> in 1998; he had also authored the project's predecessor, <a href="/wiki/Ipchains" title="Ipchains">ipchains</a>. As the project grew, he founded the <i>Netfilter Core Team</i> (or simply <i>coreteam</i>) in 1999. The software they produced (called <i>netfilter</i> hereafter) uses the <a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GNU General Public License</a> (GPL) license, and on 26 August 1999 it was merged into version 2.3.15 of the <a href="/wiki/Linux_kernel_mainline" class="mw-redirect" title="Linux kernel mainline">Linux kernel mainline</a> and thus was in the 2.4.0 stable version.<sup id="cite&#95;ref-:0&#95;3-0" class="reference"><a href="#cite_note-:0-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>In August 2003 <a href="/wiki/Harald_Welte" title="Harald Welte">Harald Welte</a> became chairman of the coreteam. In April 2004, following a crack-down by the project on those distributing the project's software <a href="/wiki/Embedded_system" title="Embedded system">embedded</a> in <a href="/wiki/Router_(computing)" title="Router (computing)">routers</a> without complying with the GPL, a <a href="/wiki/Germany" title="Germany">German</a> court granted Welte an historic <a href="/wiki/Injunction" title="Injunction">injunction</a> against <a href="/w/index.php?title=Sitecom&amp;action=edit&amp;redlink=1" class="new" title="Sitecom (page does not exist)">Sitecom</a> Germany, which refused to follow the GPL's terms (see <a href="/wiki/GNU_General_Public_License#Legal_status" title="GNU General Public License">GPL-related disputes</a>). In September 2007 Patrick McHardy, who led development for past years, was elected as new chairman of the coreteam.
+</p><p>Prior to iptables, the predominant software packages for creating Linux firewalls were <a href="/wiki/Ipchains" title="Ipchains">ipchains</a> in Linux kernel 2.2.x and <a href="/w/index.php?title=Ipfwadm&amp;action=edit&amp;redlink=1" class="new" title="Ipfwadm (page does not exist)">ipfwadm</a> in Linux kernel 2.0.x,<sup id="cite&#95;ref-:0&#95;3-1" class="reference"><a href="#cite_note-:0-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup> which in turn was based on <a href="/wiki/BSD" class="mw-redirect" title="BSD">BSD</a>'s <a href="/wiki/Ipfw" class="mw-redirect" title="Ipfw">ipfw</a>. Both ipchains and ipfwadm alter the networking code so they can manipulate packets, as Linux kernel lacked a general packets control framework until the introduction of Netfilter.
+</p><p>Whereas ipchains and ipfwadm combine packet filtering and NAT (particularly three specific kinds of <a href="/wiki/Network_address_translation" title="Network address translation">NAT</a>, called <i>masquerading</i>, <i>port forwarding</i>, and <i>redirection</i>), Netfilter separates packet operations into multiple parts, described below. Each connects to the Netfilter hooks at different points to access packets. The connection tracking and NAT subsystems are more general and more powerful than the rudimentary versions within ipchains and ipfwadm.
+</p><p>In 2017 <a href="/wiki/IPv4" title="IPv4">IPv4</a> and <a href="/wiki/IPv6" title="IPv6">IPv6</a> flow offload infrastructure was added, allowing a speedup of software flow table forwarding and hardware offload support.<sup id="cite&#95;ref-flow-offload-infrastructure-1&#95;4-0" class="reference"><a href="#cite_note-flow-offload-infrastructure-1-4"><span class="cite-bracket">&#91;</span>4<span class="cite-bracket">&#93;</span></a></sup><sup id="cite&#95;ref-flow-offload-infrastructure-2&#95;5-0" class="reference"><a href="#cite_note-flow-offload-infrastructure-2-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Userspace_utility_programs">Userspace utility programs</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=2" title="Edit section: Userspace utility programs"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<figure class="mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:Netfilter-packet-flow.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Netfilter-packet-flow.svg/960px-Netfilter-packet-flow.svg.png" decoding="async" width="600" height="191" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Netfilter-packet-flow.svg/1280px-Netfilter-packet-flow.svg.png 2x" data-file-width="1650" data-file-height="525" /></a><figcaption>Flow of network packets through Netfilter with legacy iptables packet filtering</figcaption></figure>
+<ul><li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=iptables(8)">iptables(8)</a></code></span></li>
+<li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=ip6tables(8)">ip6tables(8)</a></code></span></li>
+<li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=ebtables(8)">ebtables(8)</a></code></span></li>
+<li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=arptables(8)">arptables(8)</a></code></span></li>
+<li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=ipset(8)">ipset(8)</a></code></span></li>
+<li><span class="plainlinksneverexpand"><code><a rel="nofollow" class="external text" href="https://man.cx/?page=nftables(8)">nftables(8)</a></code></span></li></ul>
+<div class="mw-heading mw-heading3"><h3 id="iptables">iptables</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=3" title="Edit section: iptables"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1320445320">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Iptables" title="Iptables">iptables</a></div>
+<p>The kernel modules named <code>ip_tables</code>, <code>ip6_tables</code>, <code>arp_tables</code> (the underscore is part of the name), and <code>ebtables</code> comprise the legacy packet filtering portion of the Netfilter hook system. They provide a table-based system for defining firewall rules that can filter or transform packets. The tables can be administered through the user-space tools <code>iptables</code>, <code>ip6tables</code>, <code>arptables</code>, and <code>ebtables</code>. Notice that although both the kernel modules and userspace utilities have similar names, each of them is a different entity with different functionality.
+</p><p>Each table is actually its own hook, and each table was introduced to serve a specific purpose. As far as Netfilter is concerned, it runs a particular table in a specific order with respect to other tables. Any table can call itself and it also can execute its own rules, which enables possibilities for additional processing and iteration.
+</p><p>Rules are organized into chains, or in other words, "chains of rules". These chains are named with predefined titles, including <code>INPUT</code>, <code>OUTPUT</code> and <code>FORWARD</code>. These chain titles help describe the origin in the Netfilter stack. Packet reception, for example, falls into <code>PREROUTING</code>, while the <code>INPUT</code> represents locally delivered data, and forwarded traffic falls into the <code>FORWARD</code> chain. Locally generated output passes through the <code>OUTPUT</code> chain, and packets to be sent out are in <code>POSTROUTING</code> chain.
+</p><p>Netfilter modules not organized into tables (see below) are capable of checking for the origin to select their mode of operation.
+</p>
+<dl><dt><code>iptable_raw</code> module</dt>
+<dd>When loaded, registers a hook that will be called before any other Netfilter hook. It provides a table called <i>raw</i> that can be used to filter packets before they reach more memory-demanding operations such as Connection Tracking.</dd>
+<dt><code>iptable_mangle</code> module</dt>
+<dd>Registers a hook and <i>mangle</i> table to run after Connection Tracking (see below) (but still before any other table), so that modifications can be made to the packet. This enables additional modifications by rules that follow, such as NAT or further filtering.</dd>
+<dt><code>iptable_nat</code> module</dt>
+<dd>Registers two hooks: Destination Network Address Translation-based transformations ("DNAT") are applied before the filter hook, Source Network Address Translation-based transformations ("SNAT") are applied afterwards. The <i>network address translation</i> table (or "nat") that is made available to iptables is merely a "configuration database" for <a href="/wiki/Network_address_translation" title="Network address translation">NAT</a> mappings only, and not intended for filtering of any kind.</dd>
+<dt><code>iptable_filter</code> module</dt>
+<dd>Registers the <i>filter</i> table, used for general-purpose filtering (firewalling).</dd>
+<dt><code>security_filter</code> module</dt>
+<dd>Used for Mandatory Access Control (MAC) networking rules, such as those enabled by the <code>SECMARK</code> and <code>CONNSECMARK</code> targets. (These so-called "targets" refer to Security-Enhanced Linux markers.)  Mandatory Access Control is implemented by Linux Security Modules such as SELinux. The security table is called following the call of the filter table, allowing any Discretionary Access Control (DAC) rules in the filter table to take effect before any MAC rules. This table provides the following built-in chains: <code>INPUT</code> (for packets coming into the computer itself), <code>OUTPUT</code> (for altering locally-generated packets before routing), and <code>FORWARD</code> (for altering packets being routed through the computer).</dd></dl>
+<div class="mw-heading mw-heading3"><h3 id="nftables">nftables</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=4" title="Edit section: nftables"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1320445320" /><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Nftables" title="Nftables">nftables</a></div>
+<p>nftables is the new packet-filtering portion of Netfilter. <code>nft</code> is the new userspace utility that replaces <code>iptables</code>, <code>ip6tables</code>, <code>arptables</code> and <code>ebtables</code>.
+</p><p>nftables kernel engine adds a simple <a href="/wiki/Virtual_machine" title="Virtual machine">virtual machine</a> into the Linux kernel, which is able to execute bytecode to inspect a network packet and make decisions on how that packet should be handled. The operations implemented by this virtual machine are intentionally made basic: it can get data from the packet itself, have a look at the associated metadata (inbound interface, for example), and manage connection tracking data. Arithmetic, bitwise and comparison operators can be used for making decisions based on that data. The virtual machine is also capable of manipulating sets of data (typically IP addresses), allowing multiple comparison operations to be replaced with a single set lookup.<sup id="cite&#95;ref-lwn-nftables&#95;6-0" class="reference"><a href="#cite_note-lwn-nftables-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>This is in contrast to the legacy Xtables (iptables, etc.) code, which has protocol awareness so deeply built into the code that it has had to be replicated four times‍&#8212;‌for IPv4, IPv6, ARP, and Ethernet bridging‍&#8212;‌as the firewall engines are too protocol-specific to be used in a generic manner.<sup id="cite&#95;ref-lwn-nftables&#95;6-1" class="reference"><a href="#cite_note-lwn-nftables-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup> The main advantages over <code>iptables</code> are simplification of the Linux kernel <a href="/wiki/Application_binary_interface" title="Application binary interface">ABI</a>, reduction of <a href="/wiki/Code_duplication" class="mw-redirect" title="Code duplication">code duplication</a>, improved <a href="/wiki/Error_message" title="Error message">error reporting</a>, and more efficient execution, storage, and incremental, <a href="/wiki/Atomicity_(database_systems)" title="Atomicity (database systems)">atomic</a> changes of filtering rules.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Packet_defragmentation">Packet defragmentation</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=5" title="Edit section: Packet defragmentation"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1320445320" /><div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/IP_fragmentation" title="IP fragmentation">IP fragmentation</a></div>
+<p>The <code>nf_defrag_ipv4</code> module will defragment IPv4 packets before they reach Netfilter's connection tracking (<code>nf_conntrack_ipv4</code> module). This is necessary for the in-kernel connection tracking and NAT helper modules (which are a form of "mini-<a href="/wiki/Application-level_gateway" title="Application-level gateway">ALGs</a>") that only work reliably on entire packets, not necessarily on fragments.
+</p><p>The IPv6 defragmenter is not a module in its own right, but is integrated into the <code>nf_conntrack_ipv6</code> module.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Connection_tracking">Connection tracking</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=6" title="Edit section: Connection tracking"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1320445320" /><div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Stateful_packet_inspection" class="mw-redirect" title="Stateful packet inspection">Stateful packet inspection</a></div>
+<p>One of the important features built on top of the Netfilter framework is connection tracking.<sup id="cite&#95;ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup> Connection tracking allows the kernel to keep track of all logical network connections or <a href="/wiki/Session_(computer_science)" title="Session (computer science)">sessions</a>, and thereby relate all of the packets which may make up that connection. NAT relies on this information to translate all related packets in the same way, and <code>iptables</code> can use this information to act as a stateful firewall.
+</p><p>The connection state however is completely independent of any upper-level state, such as TCP's or SCTP's state. Part of the reason for this is that when merely forwarding packets, i.e. no local delivery, the TCP engine may not necessarily be invoked at all. Even <a href="/wiki/Connectionless-mode_transmission" class="mw-redirect" title="Connectionless-mode transmission">connectionless-mode transmissions</a> such as <a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">UDP</a>, <a href="/wiki/IPsec" title="IPsec">IPsec</a> (AH/ESP), <a href="/wiki/Generic_Routing_Encapsulation" class="mw-redirect" title="Generic Routing Encapsulation">GRE</a> and other <a href="/wiki/Tunneling_protocol" title="Tunneling protocol">tunneling protocols</a> have, at least, a pseudo connection state. The heuristic for such protocols is often based upon a preset timeout value for inactivity, after whose expiration a Netfilter connection is dropped.
+</p><p>Each Netfilter connection is uniquely identified by a (layer-3 protocol, source address, destination address, layer-4 protocol, layer-4 key) tuple. The layer-4 key depends on the transport protocol; for TCP/UDP it is the port numbers, for tunnels it can be their tunnel ID, but otherwise is just zero, as if it were not part of the tuple. To be able to inspect the TCP port in all cases, packets will be mandatorily defragmented.
+</p><p>Netfilter connections can be manipulated with the user-space tool <code>conntrack</code>.
+</p><p><code>iptables</code> can make use of checking the connection's information such as states, statuses and more to make packet filtering rules more powerful and easier to manage. The most common states are:
+</p>
+<dl><dt><code>NEW</code></dt>
+<dd>trying to create a new connection</dd>
+<dt><code>ESTABLISHED</code></dt>
+<dd>part of an already-existing connection</dd>
+<dt><code>RELATED</code></dt>
+<dd>assigned to a packet that is initiating a new connection and which has been "expected"; the aforementioned mini-ALGs set up these expectations, for example, when the <code>nf_conntrack_ftp</code> module sees an <a href="/wiki/FTP" class="mw-redirect" title="FTP">FTP</a> "<code>PASV</code>" command</dd>
+<dt><code>INVALID</code></dt>
+<dd>the packet was found to be <a href="/wiki/Invalid_packet" class="mw-redirect" title="Invalid packet">invalid</a>, e.g. it would not adhere to the <a href="/wiki/TCP_connection" class="mw-redirect" title="TCP connection">TCP state</a> diagram</dd>
+<dt><code>UNTRACKED</code></dt>
+<dd>a special state that can be assigned by the administrator to bypass connection tracking for a particular packet (see raw table, above).</dd></dl>
+<p>A normal example would be that the first packet the conntrack subsystem sees will be classified "new", the reply would be classified "established" and an <a href="/wiki/ICMP" class="mw-redirect" title="ICMP">ICMP</a> error would be "related". An ICMP error packet which did not match any known connection would be "invalid".
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Connection_tracking_helpers">Connection tracking helpers</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=7" title="Edit section: Connection tracking helpers"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Through the use of plugin modules, connection tracking can be given knowledge of application-layer protocols and thus understand that two or more distinct connections are "related". For example, consider the <a href="/wiki/FTP" class="mw-redirect" title="FTP">FTP</a> protocol. A control connection is established, but whenever data is transferred, a separate connection is established to transfer it. When the <code>nf_conntrack_ftp</code> module is loaded, the first packet of an FTP data connection will be classified as "related" instead of "new", as it is logically part of an existing connection.
+</p><p>The helpers only inspect one packet at a time, so if vital information for connection tracking is split across two packets, either due to <a href="/wiki/IP_fragmentation" title="IP fragmentation">IP fragmentation</a> or TCP segmentation, the helper will not necessarily recognize patterns and therefore not perform its operation. IP fragmentation is dealt with the connection tracking subsystem requiring defragmentation, though <a href="/wiki/TCP_segment" class="mw-redirect" title="TCP segment">TCP segmentation</a> is not handled. In case of FTP, segmentation is deemed not to happen "near" a command like <code>PASV</code> with standard segment sizes, so is not dealt with in Netfilter either.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Network_address_translation">Network address translation</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=8" title="Edit section: Network address translation"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1320445320" /><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Network_address_translation" title="Network address translation">Network address translation</a></div>
+<p>Each connection has a set of <i>original addresses</i> and <i>reply addresses</i>, which initially start out the same. NAT in Netfilter is implemented by simply changing the reply address, and where desired, port. When packets are received, their connection tuple will also be compared against the reply address pair (and ports). Being fragment-free is also a requirement for NAT. (If need be, IPv4 packets may be refragmented by the normal, non-Netfilter, IPv4 stack.)
+</p>
+<div class="mw-heading mw-heading3"><h3 id="NAT_helpers">NAT helpers</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=9" title="Edit section: NAT helpers"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Similar to connection tracking helpers, NAT helpers will do a packet inspection and substitute original addresses by reply addresses in the payload.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Further_Netfilter_projects">Further Netfilter projects</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=10" title="Edit section: Further Netfilter projects"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Though not being kernel modules that make use of Netfilter code directly, the Netfilter project hosts a few more noteworthy software.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="conntrack-tools">conntrack-tools</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=11" title="Edit section: conntrack-tools"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p><code>conntrack-tools</code> is a set of user-space tools for Linux that allow system administrators to interact with the Connection Tracking entries and tables. The package includes the <code>conntrackd</code> daemon and the command line interface <code>conntrack</code>. The userspace daemon <code>conntrackd</code> can be used to enable high availability cluster-based stateful firewalls and collect statistics of the stateful firewall use. The command line interface <code>conntrack</code> provides a more flexible interface to the connection tracking system than the obsolete <code>/proc/net/nf_conntrack</code>.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="ipset">ipset</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=12" title="Edit section: ipset"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Unlike other extensions such as Connection Tracking, <code>ipset</code><sup id="cite&#95;ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup> is more related to <code>iptables</code> than it is to the core Netfilter code. <code>ipset</code> does not make use of Netfilter hooks for instance, but actually provides an <code>iptables</code> module to match and do minimal modifications (set/clear) to IP sets.
+</p><p>The user-space tool called <code>ipset</code> is used to set up, maintain and inspect so called "IP sets" in the Linux kernel. An IP set usually contains a set of <a href="/wiki/IP_address" title="IP address">IP addresses</a>, but can also contain sets of other network numbers, depending on its "type". These sets are much more lookup-efficient than bare <code>iptables</code> rules, but of course may come with a greater memory footprint. Different storage algorithms (for the data structures in memory) are provided in <code>ipset</code> for the user to select an optimum solution.
+</p><p>Any entry in one set can be bound to another set, allowing for sophisticated matching operations. A set can only be removed (destroyed) if there are no <code>iptables</code> rules or other sets referring to it.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="SYN_proxy">SYN proxy</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=13" title="Edit section: SYN proxy"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p><code>SYNPROXY</code> target makes handling of large <a href="/wiki/SYN_flood" title="SYN flood">SYN floods</a> possible without the large performance penalties imposed by the connection tracking in such cases. By redirecting initial <code>SYN</code> requests to the <code>SYNPROXY</code> target, connections are not registered within the connection tracking until they reach a validated final <code>ACK</code> state, freeing up connection tracking from accounting large numbers of potentially invalid connections. This way, huge <code>SYN</code> floods can be handled in an effective way.<sup id="cite&#95;ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">&#91;</span>9<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>On 3 November 2013, <code>SYN</code> proxy functionality was merged into the Netfilter, with the release of version 3.12 of the Linux kernel mainline.<sup id="cite&#95;ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup><sup id="cite&#95;ref-11" class="reference"><a href="#cite_note-11"><span class="cite-bracket">&#91;</span>11<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading3"><h3 id="ulogd">ulogd</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=14" title="Edit section: ulogd"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p><code>ulogd</code> is a user-space daemon to receive and log packets and event notifications from the Netfilter subsystems. <code>ip_tables</code> can deliver packets via the userspace queueing mechanism to it, and connection tracking can interact with <code>ulogd</code> to exchange further information about packets or events (such as connection teardown, NAT setup).
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Userspace_libraries">Userspace libraries</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=15" title="Edit section: Userspace libraries"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Netfilter also provides a set of libraries having <code>libnetfilter</code> as a prefix of their names, that can be used to perform different tasks from the userspace. These libraries are released under the GNU GPL version 2. Specifically, they are the following:
+</p>
+<dl><dt><code>libnetfilter_queue</code></dt>
+<dd>allows to perform userspace packet queueing in conjunction with iptables; based on <code>libnfnetlink</code></dd>
+<dt><code>libnetfilter_conntrack</code></dt>
+<dd>allows manipulation of connection tracking entries from the userspace; based on <code>libnfnetlink</code></dd>
+<dt><code>libnetfilter_log</code></dt>
+<dd>allows collection of log messages generated by iptables; based on <code>libnfnetlink</code></dd>
+<dt><code>libnl-3-netfilter</code></dt>
+<dd>allows operations on queues, connection tracking and logs; part of the <code>libnl</code> project<sup id="cite&#95;ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">&#91;</span>12<span class="cite-bracket">&#93;</span></a></sup></dd>
+<dt><code>libiptc</code></dt>
+<dd>allows changes to be performed to the iptables firewall rulesets; it is not based on any <code><a href="/wiki/Netlink" title="Netlink">netlink</a></code> library, and its <a href="/wiki/API" title="API">API</a> is internally used by the <code>iptables</code> utilities</dd>
+<dt><code>libipset</code></dt>
+<dd>allows operations on IP sets; based on <code>libmnl</code>.</dd></dl>
+<div class="mw-heading mw-heading2"><h2 id="Netfilter_workshops">Netfilter workshops</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=16" title="Edit section: Netfilter workshops"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>The Netfilter project organizes an annual meeting for developers, which is used to discuss ongoing research and development efforts. The 2018 Netfilter workshop took place in Berlin, Germany, in June 2018.<sup id="cite&#95;ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="See_also">See also</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=17" title="Edit section: See also"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1266661725">.mw-parser-output .portalbox{padding:0;margin:0.5em 0;display:table;box-sizing:border-box;max-width:175px;list-style:none}.mw-parser-output .portalborder{border:1px solid var(--border-color-base,#a2a9b1);padding:0.1em;background:var(--background-color-neutral-subtle,#f8f9fa)}.mw-parser-output .portalbox-entry{display:table-row;font-size:85%;line-height:110%;height:1.9em;font-style:italic;font-weight:bold}.mw-parser-output .portalbox-image{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portalbox-link{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}@media(min-width:720px){.mw-parser-output .portalleft{margin:0.5em 1em 0.5em 0}.mw-parser-output .portalright{clear:right;float:right;margin:0.5em 0 0.5em 1em}}</style><ul role="navigation" aria-label="Portals" class="noprint portalbox portalborder portalright">
+<li class="portalbox-entry"><span class="portalbox-image"><span class="noviewer" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/40px-Free_and_open-source_software_logo_%282009%29.svg.png" decoding="async" width="28" height="28" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/60px-Free_and_open-source_software_logo_%282009%29.svg.png 2x" data-file-width="512" data-file-height="512" /></span></span></span><span class="portalbox-link"><a href="/wiki/Portal:Free_and_open-source_software" title="Portal:Free and open-source software">Free and open-source software portal</a></span></li><li class="portalbox-entry"><span class="portalbox-image"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:NewTux.svg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/40px-NewTux.svg.png" decoding="async" width="23" height="28" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/60px-NewTux.svg.png 2x" data-file-width="625" data-file-height="750" /></a></span></span><span class="portalbox-link"><a href="/wiki/Portal:Linux" title="Portal:Linux">Linux portal</a></span></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r1184024115">.mw-parser-output .div-col{margin-top:0.3em;column-width:30em}.mw-parser-output .div-col-small{font-size:90%}.mw-parser-output .div-col-rules{column-rule:1px solid #aaa}.mw-parser-output .div-col dl,.mw-parser-output .div-col ol,.mw-parser-output .div-col ul{margin-top:0}.mw-parser-output .div-col li,.mw-parser-output .div-col dd{page-break-inside:avoid;break-inside:avoid-column}</style><div class="div-col" style="column-width: 25em;">
+<ul><li><a href="/wiki/Berkeley_Packet_Filter" title="Berkeley Packet Filter">Berkeley Packet Filter</a></li>
+<li><a href="/wiki/Open_source_license_litigation#Geniatech_v._McHardy_(2018)" title="Open source license litigation">Geniatech v. McHardy (2018)</a> lawsuit</li>
+<li><a href="/wiki/IP_Virtual_Server" title="IP Virtual Server">IP Virtual Server</a> (IPVS, part of LVS)</li>
+<li><a href="/wiki/Ipchains" title="Ipchains">ipchains</a>, the predecessor to <a href="/wiki/Iptables" title="Iptables">iptables</a></li>
+<li><a href="/wiki/IPFire" title="IPFire">IPFire</a>, a firewall distribution using Netfilter</li>
+<li><a href="/wiki/Linux_Virtual_Server" title="Linux Virtual Server">Linux Virtual Server</a> (LVS)</li>
+<li><a href="/wiki/Netlink" title="Netlink">Netlink</a>, an API used by Netfilter extensions</li>
+<li><a href="/wiki/Network_scheduler" title="Network scheduler">Network scheduler</a>, another low-level component of the network stack</li>
+<li><a href="/wiki/NPF_(firewall)" title="NPF (firewall)">NPF (firewall)</a></li>
+<li><a href="/wiki/PF_(firewall)" title="PF (firewall)">PF (firewall)</a></li>
+<li><a href="/wiki/Uncomplicated_Firewall" title="Uncomplicated Firewall">Uncomplicated Firewall</a></li></ul>
+</div>
+<div class="mw-heading mw-heading2"><h2 id="References">References</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=18" title="Edit section: References"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1327269900">.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}body.skin-vector-2022 .mw-parser-output .reflist-columns-2{column-width:27em}body.skin-vector-2022 .mw-parser-output .reflist-columns-3{column-width:22.5em}.mw-parser-output .references[data-mw-group=upper-alpha]{list-style-type:upper-alpha}.mw-parser-output .references[data-mw-group=upper-roman]{list-style-type:upper-roman}.mw-parser-output .references[data-mw-group=lower-alpha]{list-style-type:lower-alpha}.mw-parser-output .references[data-mw-group=lower-greek]{list-style-type:lower-greek}.mw-parser-output .references[data-mw-group=lower-roman]{list-style-type:lower-roman}.mw-parser-output div.reflist-liststyle-upper-alpha .references{list-style-type:upper-alpha}.mw-parser-output div.reflist-liststyle-upper-roman .references{list-style-type:upper-roman}.mw-parser-output div.reflist-liststyle-lower-alpha .references{list-style-type:lower-alpha}.mw-parser-output div.reflist-liststyle-lower-greek .references{list-style-type:lower-greek}.mw-parser-output div.reflist-liststyle-lower-roman .references{list-style-type:lower-roman}</style><div class="mw-references-wrap mw-references-columns" style="column-width: calc( 0.9 * 30em );"><ol class="references">
+<li id="cite&#95;note-wikidata-792d25ac98583d4917e5916e9a6ed8578415142c-v20-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-wikidata-792d25ac98583d4917e5916e9a6ed8578415142c-v20_1-0">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1333433106">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite id="CITEREFGreg&#95;Kroah-Hartman2026" class="citation web cs1">Greg Kroah-Hartman (22 April 2026). <a rel="nofollow" class="external text" href="https://lore.kernel.org/lkml/2026042213-wish-lizard-f678@gregkh/">"Linux 7.0.1"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">26 April</span> 2026</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Linux+7.0.1&amp;rft.date=2026-04-22&amp;rft.au=Greg+Kroah-Hartman&amp;rft&#95;id=https%3A%2F%2Flore.kernel.org%2Flkml%2F2026042213-wish-lizard-f678%40gregkh%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.netfilter.org/">"netfilter/iptables project homepage - The netfilter.org project"</a>. netfilter.org<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-04</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=netfilter%2Fiptables+project+homepage+-+The+netfilter.org+project&amp;rft.pub=netfilter.org&amp;rft&#95;id=https%3A%2F%2Fwww.netfilter.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-:0-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="/wiki/Harald_Welte" title="Harald Welte">Harald Welte</a>, <a rel="nofollow" class="external text" href="https://netdevconf.info/2.2/slides/welte-netfilterhistory-keynote.pdf">netfilter archeology: 18 years from 2.3 to 4.x</a>, 5 December 2017</span>
+</li>
+<li id="cite&#95;note-flow-offload-infrastructure-1-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-flow-offload-infrastructure-1_4-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://lwn.net/Articles/738214/">"Flow offload infrastructure"</a>. <i><a href="/wiki/LWN.net" title="LWN.net">LWN.net</a></i>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=LWN.net&amp;rft.atitle=Flow+offload+infrastructure&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F738214%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-flow-offload-infrastructure-2-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-flow-offload-infrastructure-2_5-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://lwn.net/Articles/742164/">"Flow offload infrastructure"</a>. <i><a href="/wiki/LWN.net" title="LWN.net">LWN.net</a></i>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=LWN.net&amp;rft.atitle=Flow+offload+infrastructure&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F742164%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-lwn-nftables-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-lwn-nftables_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-lwn-nftables_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFJonathan&#95;Corbet2013" class="citation web cs1">Jonathan Corbet (2013-08-20). <a rel="nofollow" class="external text" href="https://lwn.net/Articles/564095/">"The return of nftables"</a>. <a href="/wiki/LWN.net" title="LWN.net">LWN.net</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-22</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+return+of+nftables&amp;rft.pub=LWN.net&amp;rft.date=2013-08-20&amp;rft.au=Jonathan+Corbet&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F564095%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFNeira&#95;Ayuso2006" class="citation web cs1">Neira Ayuso, Pablo (14 June 2006). <a rel="nofollow" class="external text" href="https://people.netfilter.org/pablo/docs/login.pdf">"Netfilter's Connection Tracking System"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Netfilter%27s+Connection+Tracking+System&amp;rft.date=2006-06-14&amp;rft.aulast=Neira+Ayuso&amp;rft.aufirst=Pablo&amp;rft&#95;id=https%3A%2F%2Fpeople.netfilter.org%2Fpablo%2Fdocs%2Flogin.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://ipset.netfilter.org/">"IP sets"</a>. ipset.netfilter.org<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-04</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=IP+sets&amp;rft.pub=ipset.netfilter.org&amp;rft&#95;id=http%3A%2F%2Fipset.netfilter.org%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFPatrick&#95;McHardy2013" class="citation web cs1">Patrick McHardy (2013-08-07). <a rel="nofollow" class="external text" href="https://lwn.net/Articles/563151/">"netfilter: implement netfilter SYN proxy"</a>. <a href="/wiki/LWN.net" title="LWN.net">LWN.net</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2013-11-05</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=netfilter%3A+implement+netfilter+SYN+proxy&amp;rft.pub=LWN.net&amp;rft.date=2013-08-07&amp;rft.au=Patrick+McHardy&amp;rft&#95;id=https%3A%2F%2Flwn.net%2FArticles%2F563151%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=48b1de4c110a7afa4b85862f6c75af817db26fad">"netfilter: add SYNPROXY core/target"</a>. kernel.org. 2013-08-27<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-11-05</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=netfilter%3A+add+SYNPROXY+core%2Ftarget&amp;rft.pub=kernel.org&amp;rft.date=2013-08-27&amp;rft&#95;id=https%3A%2F%2Fgit.kernel.org%2Fcgit%2Flinux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git%2Fcommit%2F%3Fid%3D48b1de4c110a7afa4b85862f6c75af817db26fad&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4ad362282cb45bbc831a182e45637da8c5bd7aa1">"netfilter: add IPv6 SYNPROXY target"</a>. kernel.org. 2013-08-27<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-11-05</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=netfilter%3A+add+IPv6+SYNPROXY+target&amp;rft.pub=kernel.org&amp;rft.date=2013-08-27&amp;rft&#95;id=https%3A%2F%2Fgit.kernel.org%2Fcgit%2Flinux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git%2Fcommit%2F%3Fid%3D4ad362282cb45bbc831a182e45637da8c5bd7aa1&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.infradead.org/~tgr/libnl/doc/api/group__nfnl.html">"Netfilter Library (libnl-nf)"</a>. infradead.org. 2013-04-02<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-12-28</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Netfilter+Library+%28libnl-nf%29&amp;rft.pub=infradead.org&amp;rft.date=2013-04-02&amp;rft&#95;id=https%3A%2F%2Fwww.infradead.org%2F~tgr%2Flibnl%2Fdoc%2Fapi%2Fgroup&#95;&#95;nfnl.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://workshop.netfilter.org/2018/">"14th Netfilter Workshop"</a>. workshop.netfilter.org. 2018-09-26<span class="reference-accessdate">. Retrieved <span class="nowrap">2018-09-26</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=14th+Netfilter+Workshop&amp;rft.pub=workshop.netfilter.org&amp;rft.date=2018-09-26&amp;rft&#95;id=https%3A%2F%2Fworkshop.netfilter.org%2F2018%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3ANetfilter" class="Z3988"></span></span>
+</li>
+</ol></div>
+<div class="mw-heading mw-heading2"><h2 id="External_links">External links</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Netfilter&amp;action=edit&amp;section=19" title="Edit section: External links"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul><li><span class="official-website"><span class="url"><a rel="nofollow" class="external text" href="https://netfilter.org/">Official website</a></span></span></li>
+<li><a rel="nofollow" class="external text" href="https://netfilter.org/projects/conntrack-tools/">conntrack-tools homepage</a></li>
+<li><a rel="nofollow" class="external text" href="http://ipset.netfilter.org/">ipset homepage</a></li>
+<li><a rel="nofollow" class="external text" href="https://netfilter.org/projects/ulogd/">ulogd homepage</a></li>
+<li><a rel="nofollow" class="external text" href="https://workshop.netfilter.org/">Home of the Netfilter Workshop websites</a></li>
+<li>"<a rel="nofollow" class="external text" href="https://inai.de/documents/Netfilter_Modules.pdf">Writing Netfilter Modules</a>" (e-book; 2009)</li>
+<li>"<a rel="nofollow" class="external text" href="https://www.zdnet.com/home-and-office/networking/netfilter-and-iptables-stateful-firewalling-for-linux/">Netfilter and Iptables &#8212; Stateful Firewalling for Linux</a>" (11 October 2001)</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20121019131903/http://www.linuxfoundation.org/collaborate/workgroups/networking/networkoverview">Network overview by Rami Rosen</a></li></ul>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r1333133064">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1314944253">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}</style></div><div role="navigation" class="navbox" aria-labelledby="Firewall&#95;software3402" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><style data-mw-deduplicate="TemplateStyles:r1239400231">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Firewall_software" title="Template:Firewall software"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Firewall_software" title="Template talk:Firewall software"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:Firewall_software" title="Special:EditPage/Template:Firewall software"><abbr title="Edit this template">e</abbr></a></li></ul></div><div id="Firewall&#95;software3402" style="font-size:114%;margin:0 4em"><a href="/wiki/Firewall_(computing)" title="Firewall (computing)">Firewall software</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><a href="/wiki/Application_firewall" title="Application firewall">Application firewall</a></li>
+<li><a href="/wiki/Context-based_access_control" title="Context-based access control">Context-based access control</a></li>
+<li><a href="/wiki/Personal_firewall" title="Personal firewall">Personal firewall</a></li>
+<li><a href="/wiki/Stateful_firewall" title="Stateful firewall">Stateful firewall</a></li>
+<li><a href="/wiki/Virtual_firewall" title="Virtual firewall">Virtual firewall</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux" title="Linux">Linux</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Apps</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/FireHOL" title="FireHOL">FireHOL</a></li>
+<li><a href="/wiki/Firestarter_(firewall)" title="Firestarter (firewall)">Firestarter</a></li>
+<li><a href="/wiki/Firewalld" title="Firewalld">firewalld</a></li>
+<li><a class="mw-selflink selflink">Netfilter</a>
+<ul><li><a href="/wiki/Iptables" title="Iptables">iptables</a></li>
+<li><a href="/wiki/Nftables" title="Nftables">nftables</a></li></ul></li>
+<li><a href="/wiki/MoBlock" title="MoBlock">MoBlock</a></li>
+<li><a href="/wiki/Privoxy" title="Privoxy">Privoxy</a></li>
+<li><a href="/wiki/Shorewall" title="Shorewall">Shorewall</a></li>
+<li><a href="/wiki/Squid_(software)" title="Squid (software)">Squid</a></li>
+<li><a href="/wiki/Uncomplicated_Firewall" title="Uncomplicated Firewall">Uncomplicated Firewall</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_distribution" title="Linux distribution">Distros</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Endian_Firewall" title="Endian Firewall">Endian Firewall</a></li>
+<li><a href="/wiki/IPFire" title="IPFire">IPFire</a></li>
+<li><a href="/wiki/LEAF_Project" title="LEAF Project">LEAF Project</a></li>
+<li><a href="/wiki/OpenWrt" title="OpenWrt">OpenWrt</a> (<a href="/wiki/LEDE" class="mw-redirect" title="LEDE">LEDE</a>)</li>
+<li><a href="/wiki/Smoothwall" title="Smoothwall">Smoothwall</a></li>
+<li><a href="/wiki/VyOS" title="VyOS">VyOS</a></li>
+<li><a href="/wiki/Zeroshell" title="Zeroshell">Zeroshell</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Berkeley_Software_Distribution" title="Berkeley Software Distribution">BSD</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Apps</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/IPFilter" title="IPFilter">IPFilter</a></li>
+<li><a href="/wiki/Ipfirewall" title="Ipfirewall">ipfirewall</a></li>
+<li><a href="/wiki/NPF_(firewall)" title="NPF (firewall)">NPF</a></li>
+<li><a href="/wiki/PF_(firewall)" title="PF (firewall)">PF</a>
+<ul><li><a href="/wiki/Pfsync" title="Pfsync">pfsync</a></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Distros</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/OPNsense" title="OPNsense">OPNsense</a></li>
+<li><a href="/wiki/PfSense" title="PfSense">pfSense</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/MacOS" title="MacOS">macOS</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Little_Snitch" title="Little Snitch">Little Snitch</a></li>
+<li><a href="/wiki/NetBarrier_X4" title="NetBarrier X4">NetBarrier X4</a></li>
+<li><a href="/wiki/PeerGuardian" title="PeerGuardian">PeerGuardian</a></li>
+<li><a href="/wiki/Intego#VirusBarrier" title="Intego">VirusBarrier X6</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Commercial</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Check_Point_Integrity" title="Check Point Integrity">Check Point Integrity</a></li>
+<li><a href="/wiki/Kaspersky_Internet_Security" title="Kaspersky Internet Security">Kaspersky Internet Security</a></li>
+<li><a href="/wiki/McAfee_Personal_Firewall_Plus" class="mw-redirect" title="McAfee Personal Firewall Plus">McAfee Personal Firewall Plus</a></li>
+<li><a href="/wiki/Norton_360" title="Norton 360">Norton 360</a></li>
+<li><a href="/wiki/Symantec_Endpoint_Protection" title="Symantec Endpoint Protection">Symantec Endpoint Protection</a></li>
+<li><a href="/wiki/Trend_Micro_Internet_Security" title="Trend Micro Internet Security">Trend Micro Internet Security</a></li>
+<li><a href="/wiki/Windows_Firewall" title="Windows Firewall">Windows Firewall</a></li>
+<li><a href="/wiki/WinGate" title="WinGate">WinGate</a></li>
+<li><a href="/wiki/WinRoute" class="mw-redirect" title="WinRoute">WinRoute</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Freemium" title="Freemium">Freemium</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Comodo_Internet_Security" title="Comodo Internet Security">Comodo Internet Security</a></li>
+<li><a href="/wiki/ZoneAlarm" title="ZoneAlarm">ZoneAlarm</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Open-source</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/PeerBlock" title="PeerBlock">PeerBlock</a></li>
+<li><a href="/wiki/PeerGuardian" title="PeerGuardian">PeerGuardian</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">discontinued</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Microsoft_Forefront_Threat_Management_Gateway" title="Microsoft Forefront Threat Management Gateway">Microsoft Forefront Threat Management Gateway</a></li>
+<li><a href="/wiki/Norton_Internet_Security" title="Norton Internet Security">Norton Internet Security</a></li>
+<li><a href="/wiki/Norton_Personal_Firewall" title="Norton Personal Firewall">Norton Personal Firewall</a></li>
+<li><a href="/wiki/Outpost_Firewall_Pro" title="Outpost Firewall Pro">Outpost Firewall Pro</a></li>
+<li><a href="/wiki/Windows_Live_OneCare" title="Windows Live OneCare">Windows Live OneCare</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><a href="/wiki/List_of_router_and_firewall_distributions" title="List of router and firewall distributions">List of router and firewall distributions</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1314944253" /></div><div role="navigation" class="navbox" aria-labelledby="Linux&#95;kernel10478" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1239400231" /><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Linux_kernel" title="Template:Linux kernel"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Linux_kernel" title="Template talk:Linux kernel"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:Linux_kernel" title="Special:EditPage/Template:Linux kernel"><abbr title="Edit this template">e</abbr></a></li></ul></div><div id="Linux&#95;kernel10478" style="font-size:114%;margin:0 4em"><a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Organization</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Kernel1228" scope="row" class="navbox-group" style="width:1%">Kernel</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Linux_Foundation" title="Linux Foundation">Linux Foundation</a></li>
+<li><a href="/wiki/Linux_Mark_Institute" title="Linux Mark Institute">Linux Mark Institute</a></li>
+<li><a href="/wiki/Linus%27s_law" title="Linus&#39;s law">Linus's law</a></li>
+<li><a href="/wiki/Tanenbaum%E2%80%93Torvalds_debate" title="Tanenbaum–Torvalds debate">Tanenbaum–Torvalds debate</a></li>
+<li><a href="/wiki/Tux_(mascot)" title="Tux (mascot)">Tux</a></li>
+<li><a href="/wiki/SCO%E2%80%93Linux_disputes" title="SCO–Linux disputes">SCO disputes</a></li>
+<li><a href="/wiki/Linaro" title="Linaro">Linaro</a></li>
+<li><a href="/wiki/GNU_General_Public_License#Version_2" title="GNU General Public License">GNU GPL v2</a></li>
+<li><a href="/wiki/Menuconfig" title="Menuconfig">menuconfig</a></li>
+<li><a href="/wiki/List_of_Linux-supported_computer_architectures" title="List of Linux-supported computer architectures">Supported computer architectures</a></li>
+<li><a href="/wiki/Linux_kernel_version_history" title="Linux kernel version history">Version history</a></li>
+<li><a href="/wiki/Criticism_of_Linux" title="Criticism of Linux">Criticism</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Support</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>Developers
+<ul><li><i><a href="/wiki/The_Linux_Programming_Interface" title="The Linux Programming Interface">The Linux Programming Interface</a></i></li>
+<li><a href="/wiki/Kernel.org" title="Kernel.org">kernel.org</a></li>
+<li><a href="/wiki/Linux_kernel_mailing_list" title="Linux kernel mailing list">LKML</a></li>
+<li><a href="/wiki/Linux_conference" class="mw-redirect" title="Linux conference">Linux conferences</a></li></ul></li>
+<li>Users
+<ul><li><a href="/wiki/Linux_user_group" title="Linux user group">Linux User Group (LUG)</a></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Werner_Almesberger" title="Werner Almesberger">Werner Almesberger</a></li>
+<li><a href="/wiki/H._Peter_Anvin" title="H. Peter Anvin">H. Peter Anvin</a></li>
+<li><a href="/wiki/Jens_Axboe" title="Jens Axboe">Jens Axboe</a></li>
+<li><a href="/wiki/Moshe_Bar_(investor)" title="Moshe Bar (investor)">Moshe Bar</a></li>
+<li><a href="/wiki/Suparna_Bhattacharya" title="Suparna Bhattacharya">Suparna Bhattacharya</a></li>
+<li><a href="/wiki/Andries_Brouwer" title="Andries Brouwer">Andries Brouwer</a></li>
+<li><a href="/wiki/R%C3%A9my_Card" title="Rémy Card">Rémy Card</a></li>
+<li><a href="/wiki/Alan_Cox_(computer_programmer)" title="Alan Cox (computer programmer)">Alan Cox</a></li>
+<li><a href="/wiki/Matthew_Garrett" title="Matthew Garrett">Matthew Garrett</a></li>
+<li><a href="/wiki/Avi_Kivity" title="Avi Kivity">Avi Kivity</a></li>
+<li><a href="/wiki/Con_Kolivas" title="Con Kolivas">Con Kolivas</a></li>
+<li><a href="/wiki/Greg_Kroah-Hartman" title="Greg Kroah-Hartman">Greg Kroah-Hartman</a></li>
+<li><a href="/wiki/Robert_Love" title="Robert Love">Robert Love</a></li>
+<li><a href="/wiki/David_S._Miller" title="David S. Miller">David S. Miller</a></li>
+<li><a href="/wiki/Ingo_Moln%C3%A1r" title="Ingo Molnár">Ingo Molnár</a></li>
+<li><a href="/wiki/Andrew_Morton_(computer_programmer)" title="Andrew Morton (computer programmer)">Andrew Morton</a></li>
+<li><a href="/wiki/Hans_Reiser" title="Hans Reiser">Hans Reiser</a></li>
+<li><a href="/wiki/Rusty_Russell" title="Rusty Russell">Rusty Russell</a></li>
+<li><a href="/wiki/Shuah_Khan" title="Shuah Khan">Shuah Khan</a></li>
+<li><a href="/wiki/Linus_Torvalds" title="Linus Torvalds">Linus Torvalds</a></li>
+<li><a href="/wiki/Theodore_Ts%27o" title="Theodore Ts&#39;o">Theodore Ts'o</a></li>
+<li><a href="/wiki/Stephen_Tweedie" title="Stephen Tweedie">Stephen Tweedie</a></li>
+<li><a href="/wiki/Harald_Welte" title="Harald Welte">Harald Welte</a></li>
+<li><a href="/wiki/Chris_Wright_(programmer)" title="Chris Wright (programmer)">Chris Wright</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Technical</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Debugging</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/CRIU" title="CRIU">CRIU</a></li>
+<li><a href="/wiki/Ftrace" title="Ftrace">ftrace</a></li>
+<li><a href="/wiki/Kdump_(Linux)" title="Kdump (Linux)">kdump</a></li>
+<li><a href="/wiki/Linux_kernel_oops" title="Linux kernel oops">Linux kernel oops</a></li>
+<li><a href="/wiki/SystemTap" title="SystemTap">SystemTap</a></li>
+<li><a href="/wiki/Berkeley_Packet_Filter" title="Berkeley Packet Filter">BPF</a></li>
+<li><a href="/wiki/EBPF" title="EBPF">eBPF</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Booting_process_of_Linux" title="Booting process of Linux">Startup</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Vmlinux" title="Vmlinux">vmlinux</a></li>
+<li><a href="/wiki/System.map" title="System.map">System.map</a></li>
+<li><a href="/wiki/Dracut_(software)" title="Dracut (software)">dracut</a></li>
+<li><a href="/wiki/Initrd" class="mw-redirect" title="Initrd">initrd</a></li>
+<li><a href="/wiki/Initramfs" class="mw-redirect" title="Initramfs">initramfs</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_kernel_interfaces" title="Linux kernel interfaces">ABIs</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Linux_Standard_Base" title="Linux Standard Base">Linux Standard Base</a></li>
+<li><a href="/wiki/X32_ABI" title="X32 ABI">x32 ABI</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_kernel_interfaces" title="Linux kernel interfaces">APIs</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Kernel</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_kernel_interfaces#SCI" title="Linux kernel interfaces">System Call<br />Interface</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/POSIX" title="POSIX">POSIX</a>
+<ul><li><a href="/wiki/Ioctl" title="Ioctl">ioctl</a></li>
+<li><a href="/wiki/Select_(Unix)" title="Select (Unix)">select</a></li>
+<li><a href="/wiki/Open_(system_call)" title="Open (system call)">open</a></li>
+<li><a href="/wiki/Read_(system_call)" title="Read (system call)">read</a></li>
+<li><a href="/wiki/Close_(system_call)" title="Close (system call)">close</a></li>
+<li><a href="/wiki/Sync_(Unix)" title="Sync (Unix)">sync</a></li>
+<li>…</li></ul></li>
+<li><a href="/wiki/Linux_kernel_interfaces#Additions_to_POSIX" title="Linux kernel interfaces">Linux-only</a>
+<ul><li><a href="/wiki/Futex" title="Futex">futex</a></li>
+<li><a href="/wiki/Epoll" title="Epoll">epoll</a></li>
+<li><a href="/wiki/Splice_(system_call)" title="Splice (system call)">splice</a></li>
+<li><a href="/wiki/Dnotify" title="Dnotify">dnotify</a></li>
+<li><a href="/wiki/Inotify" title="Inotify">inotify</a></li>
+<li><a href="/wiki/Readahead" title="Readahead">readahead</a></li>
+<li>…</li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_kernel_interfaces#In–kernel_APIs" title="Linux kernel interfaces">In-kernel</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Advanced_Linux_Sound_Architecture" title="Advanced Linux Sound Architecture">ALSA</a></li>
+<li><a href="/wiki/Crypto_API_(Linux)" title="Crypto API (Linux)">Crypto API</a></li>
+<li><a href="/wiki/Io_uring" title="Io uring">io_uring</a></li>
+<li><a href="/wiki/Direct_Rendering_Manager" title="Direct Rendering Manager">DRM</a></li>
+<li><a href="/wiki/Kernfs_(Linux)" title="Kernfs (Linux)">kernfs</a></li>
+<li><a href="/wiki/Memory_barrier" title="Memory barrier">Memory barrier</a></li>
+<li><a href="/wiki/New_API" title="New API">New API</a></li>
+<li><a href="/wiki/Read-copy-update" title="Read-copy-update">RCU</a></li>
+<li><a href="/wiki/Video4Linux" title="Video4Linux">Video4Linux</a></li>
+<li><a href="/wiki/IIO_Framework" title="IIO Framework">IIO</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/User_space_and_kernel_space" title="User space and kernel space">Userspace</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Daemon_(computing)" title="Daemon (computing)">Daemons</a>,<br /><a href="/wiki/Virtual_file_system" title="Virtual file system">File systems</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>bpffs</li>
+<li><a href="/wiki/Configfs" title="Configfs">configfs</a></li>
+<li><a href="/wiki/Devfs" class="mw-redirect" title="Devfs">devfs</a></li>
+<li><a href="/wiki/Devpts" title="Devpts">devpts</a></li>
+<li><a href="/wiki/Debugfs" title="Debugfs">debugfs</a></li>
+<li><a href="/wiki/Filesystem_in_Userspace" title="Filesystem in Userspace">FUSE</a></li>
+<li>hugetlbfs</li>
+<li>pipefs</li>
+<li><a href="/wiki/Procfs" title="Procfs">procfs</a></li>
+<li>securityfs</li>
+<li>sockfs</li>
+<li><a href="/wiki/Sysfs" title="Sysfs">sysfs</a></li>
+<li><a href="/wiki/Tmpfs" title="Tmpfs">tmpfs</a></li>
+<li><a href="/wiki/Systemd" title="Systemd">systemd</a>
+<ul><li><a href="/wiki/Udev" title="Udev">udev</a></li></ul></li>
+<li><a href="/wiki/Kmscon" title="Kmscon">Kmscon</a></li>
+<li><a href="/wiki/Binfmt_misc" title="Binfmt misc">binfmt_misc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Wrapper_library" title="Wrapper library">Wrapper<br />libraries</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/C_standard_library" title="C standard library">C standard library</a>
+<ul><li><a href="/wiki/Glibc" title="Glibc">glibc</a></li>
+<li><a href="/wiki/UClibc" title="UClibc">uClibc</a></li>
+<li><a href="/wiki/Bionic_(software)" title="Bionic (software)">Bionic</a>
+<ul><li><a href="/wiki/Libhybris" title="Libhybris">libhybris</a></li></ul></li>
+<li><a href="/wiki/Dietlibc" title="Dietlibc">dietlibc</a></li>
+<li><a href="/wiki/Embedded_GLIBC" class="mw-redirect" title="Embedded GLIBC">EGLIBC</a></li>
+<li><a href="/wiki/Klibc" title="Klibc">klibc</a></li>
+<li><a href="/wiki/Musl" title="Musl">musl</a></li>
+<li><a href="/wiki/Newlib" title="Newlib">Newlib</a></li></ul></li>
+<li><a href="/wiki/Cgroups" title="Cgroups">libcgroup</a></li>
+<li><a href="/wiki/Direct_Rendering_Manager" title="Direct Rendering Manager">libdrm</a></li>
+<li><a href="/wiki/Advanced_Linux_Sound_Architecture" title="Advanced Linux Sound Architecture">libalsa</a></li>
+<li><a href="/wiki/Evdev" title="Evdev">libevdev</a></li>
+<li><a href="/wiki/Libusb" title="Libusb">libusb</a></li>
+<li><a href="/wiki/Io_uring" title="Io uring">liburing</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Components</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Loadable_kernel_module" title="Loadable kernel module">Kernel modules</a></li>
+<li><a href="/wiki/BlueZ" class="mw-redirect" title="BlueZ">BlueZ</a></li>
+<li><a href="/wiki/Cgroups" title="Cgroups">cgroups</a></li>
+<li><a href="/wiki/Linux_console" title="Linux console">Console</a></li>
+<li><a href="/wiki/Bcache" title="Bcache">bcache</a></li>
+<li><a href="/wiki/Device_mapper" title="Device mapper">Device mapper</a></li>
+<li><a href="/wiki/Dm-cache" title="Dm-cache">dm-cache</a></li>
+<li><a href="/wiki/Dm-crypt" title="Dm-crypt">dm-crypt</a></li>
+<li><a href="/wiki/Direct_Rendering_Manager" title="Direct Rendering Manager">DRM</a></li>
+<li><a href="/wiki/EDAC_(Linux)" class="mw-redirect" title="EDAC (Linux)">EDAC</a></li>
+<li><a href="/wiki/Evdev" title="Evdev">evdev</a></li>
+<li><a href="/wiki/Kernel_same-page_merging" title="Kernel same-page merging">Kernel same-page merging</a> (KSM)</li>
+<li><a href="/wiki/LIO_(SCSI_target)" title="LIO (SCSI target)">LIO</a></li>
+<li><a href="/wiki/Linux_framebuffer" title="Linux framebuffer">Framebuffer</a></li>
+<li><a href="/wiki/Logical_Volume_Manager_(Linux)" title="Logical Volume Manager (Linux)">LVM</a></li>
+<li><a href="/wiki/KMS_driver" class="mw-redirect" title="KMS driver">KMS driver</a></li>
+<li><a class="mw-selflink selflink">Netfilter</a></li>
+<li><a href="/wiki/Netlink" title="Netlink">Netlink</a></li>
+<li><a href="/wiki/Nftables" title="Nftables">nftables</a></li>
+<li><a href="/wiki/Network_scheduler" title="Network scheduler">Network scheduler</a></li>
+<li><a href="/wiki/Perf_(Linux)" title="Perf (Linux)">perf</a></li>
+<li><a href="/wiki/SLUB_(software)" title="SLUB (software)">SLUB</a></li>
+<li><a href="/wiki/Zram" title="Zram">zram</a></li>
+<li><a href="/wiki/Zswap" title="Zswap">zswap</a></li></ul>
+<ul><li><a href="/wiki/Scheduling_(computing)#Linux" title="Scheduling (computing)">Process and I/O schedulers</a>:</li>
+<li><a href="/wiki/Brain_Fuck_Scheduler" title="Brain Fuck Scheduler">Brain Fuck Scheduler</a></li>
+<li><a href="/wiki/Completely_Fair_Scheduler" title="Completely Fair Scheduler">Completely Fair Scheduler</a> (CFS)</li>
+<li><a href="/wiki/Earliest_eligible_virtual_deadline_first_scheduling" title="Earliest eligible virtual deadline first scheduling">Earliest eligible virtual deadline first</a> (EEVDF)</li>
+<li><a href="/wiki/Noop_scheduler" title="Noop scheduler">Noop scheduler</a></li>
+<li><a href="/wiki/O(n)_scheduler" title="O(n) scheduler">O(n) scheduler</a></li>
+<li><a href="/wiki/O(1)_scheduler" title="O(1) scheduler">O(1) scheduler</a></li>
+<li><a href="/wiki/SCHED_DEADLINE" title="SCHED DEADLINE">SCHED_DEADLINE</a></li>
+<li><a href="/wiki/SCHED_FIFO" class="mw-redirect" title="SCHED FIFO">SCHED_FIFO</a></li>
+<li><a href="/wiki/SCHED_RR" class="mw-redirect" title="SCHED RR">SCHED_RR</a></li></ul>
+<ul><li><a href="/wiki/Linux_Security_Modules" title="Linux Security Modules">Security Modules</a>: <a href="/wiki/AppArmor" title="AppArmor">AppArmor</a></li>
+<li><a href="/wiki/Exec_Shield" title="Exec Shield">Exec Shield</a></li>
+<li><a href="/wiki/Seccomp" title="Seccomp">seccomp</a></li>
+<li><a href="/wiki/Security-Enhanced_Linux" title="Security-Enhanced Linux">SELinux</a></li>
+<li><a href="/wiki/Smack_(software)" title="Smack (software)">Smack</a></li>
+<li><a href="/wiki/Tomoyo_Linux" title="Tomoyo Linux">Tomoyo Linux</a></li>
+<li><a href="/wiki/Linux_PAM" title="Linux PAM">Linux PAM</a></li></ul>
+<ul><li><a href="/wiki/Device_driver" title="Device driver">Device drivers</a>
+<ul><li><a href="/wiki/Comparison_of_open-source_wireless_drivers" title="Comparison of open-source wireless drivers">802.11</a></li>
+<li><a href="/wiki/Free_and_open-source_graphics_device_driver" title="Free and open-source graphics device driver">graphics</a></li></ul></li>
+<li><a href="/wiki/Raw_device" title="Raw device">Raw device</a></li></ul>
+<ul><li><a href="/wiki/Initramfs" class="mw-redirect" title="Initramfs">initramfs</a></li>
+<li><a href="/wiki/KernelCare" title="KernelCare">KernelCare</a></li>
+<li><a href="/wiki/Kexec" title="Kexec">kexec</a></li>
+<li><a href="/wiki/KGraft" title="KGraft">kGraft</a></li>
+<li><a href="/wiki/Kpatch" title="Kpatch">kpatch</a></li>
+<li><a href="/wiki/Ksplice" title="Ksplice">Ksplice</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Variants</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Mainline_Linux" class="mw-redirect" title="Mainline Linux">Mainline</a>
+<ul><li><a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a></li>
+<li><a href="/wiki/Linux-libre" title="Linux-libre">Linux-libre</a></li></ul></li>
+<li><a href="/wiki/High-performance_computing" title="High-performance computing">High-performance computing</a>
+<ul><li><a href="/wiki/INK_(operating_system)" title="INK (operating system)">INK</a></li>
+<li><a href="/wiki/Compute_Node_Linux" title="Compute Node Linux">Compute Node Linux</a></li>
+<li><a href="/wiki/Slurm_Workload_Manager" title="Slurm Workload Manager">SLURM</a></li></ul></li>
+<li><a href="/wiki/Real-time_computing" title="Real-time computing">Real-time computing</a>
+<ul><li><a href="/wiki/RTLinux" title="RTLinux">RTLinux</a></li>
+<li><a href="/wiki/RTAI" title="RTAI">RTAI</a></li>
+<li><a href="/wiki/Xenomai" title="Xenomai">Xenomai</a></li>
+<li><a href="/wiki/PREEMPT_RT" title="PREEMPT RT">PREEMPT_RT</a></li></ul></li>
+<li><a href="/wiki/Memory_management_unit" title="Memory management unit">MMU</a>-less
+<ul><li><a href="/wiki/%CE%9CClinux" title="ΜClinux">μClinux</a></li>
+<li><a href="/wiki/PSXLinux" title="PSXLinux">PSXLinux</a></li></ul></li></ul>
+ </div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Virtualization277" scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Virtualization" title="Virtualization">Virtualization</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Hypervisor" title="Hypervisor">Hypervisor</a>
+<ul><li><a href="/wiki/Kernel-based_Virtual_Machine" title="Kernel-based Virtual Machine">KVM</a></li>
+<li><a href="/wiki/Xen" title="Xen">Xen</a></li></ul></li>
+<li><a href="/wiki/OS-level_virtualization" title="OS-level virtualization">OS-level virtualization</a>
+<ul><li><a href="/wiki/Linux-VServer" title="Linux-VServer">Linux-VServer</a></li>
+<li><a href="/wiki/Lguest" title="Lguest">Lguest</a></li>
+<li><a href="/wiki/LXC" title="LXC">LXC</a></li>
+<li><a href="/wiki/OpenVZ" title="OpenVZ">OpenVZ</a></li></ul></li>
+<li>Other
+<ul><li><a href="/wiki/L4Linux" title="L4Linux">L4Linux</a></li>
+<li><a href="/wiki/User-mode_Linux" title="User-mode Linux">User-mode Linux</a></li>
+<li><a href="/wiki/MkLinux" title="MkLinux">MkLinux</a></li>
+<li><a href="/wiki/Cooperative_Linux" title="Cooperative Linux">coLinux</a></li></ul></li></ul>
+</div></td></tr></tbody></table><div>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_adoption" title="Linux adoption">Adoption</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Rangeof&#95;use377" scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Linux_range_of_use" title="Linux range of use">Range<br />of use</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Linux_desktop_environments" class="mw-redirect" title="Linux desktop environments">Desktop</a></li>
+<li><a href="/wiki/Linux_on_embedded_systems" title="Linux on embedded systems">Embedded</a></li>
+<li><a href="/wiki/Video_games_and_Linux" title="Video games and Linux">Gaming</a></li>
+<li>Thin client:
+<ul><li><a href="/wiki/Linux_Terminal_Server_Project" title="Linux Terminal Server Project">LTSP</a></li></ul></li>
+<li>Server:
+<ul><li><a href="/wiki/LAMP_(software_bundle)" title="LAMP (software bundle)">LAMP</a></li>
+<li><a href="/wiki/LYME_(software_bundle)" title="LYME (software bundle)">LYME-LYCE</a></li></ul></li>
+<li><a href="/wiki/Linux-powered_device" title="Linux-powered device">Devices</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Adopters</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/List_of_Linux_adopters" title="List of Linux adopters">List of Linux adopters</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><b><span class="nowrap"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:NewTux.svg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/20px-NewTux.svg.png" decoding="async" width="12" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/40px-NewTux.svg.png 2x" data-file-width="625" data-file-height="750" /></a></span> </span><a href="/wiki/Portal:Linux" title="Portal:Linux">Linux&#32;portal</a></b></li>
+<li><b><span class="nowrap"><span class="noviewer" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/20px-Free_and_open-source_software_logo_%282009%29.svg.png" decoding="async" width="15" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/40px-Free_and_open-source_software_logo_%282009%29.svg.png 2x" data-file-width="512" data-file-height="512" /></span></span> </span><a href="/wiki/Portal:Free_and_open-source_software" title="Portal:Free and open-source software">Free and open-source software&#32;portal</a></b></li>
+<li><span class="noviewer" typeof="mw:File"><span title="Category"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png" decoding="async" width="16" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/40px-Symbol_category_class.svg.png 2x" data-file-width="180" data-file-height="185" /></span></span> <b><a href="/wiki/Category:Linux_kernel" title="Category:Linux kernel">Category</a></b></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐56dfd6f675‐8z2pg
+Cached time: 20260427023307
+Cache expiry: 79200
+Cache expiry source: Module:Time_ago (formatDate)
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, prevent‐selective‐update, show‐toc]
+CPU time usage: 1.058 seconds
+Real time usage: 1.283 seconds
+Preprocessor visited node count: 2693/1000000
+Revision size: 23794/2097152 bytes
+Post‐expand include size: 136295/2097152 bytes
+Template argument size: 12163/2097152 bytes
+Highest expansion depth: 23/100
+Expensive parser function count: 11/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 64139/5000000 bytes
+Lua time usage: 0.808/10.000 seconds
+Lua memory usage: 26193461/52428800 bytes
+Number of Wikibase entities loaded: 2/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1160.453      1 -total
+ 66.48%  771.470      2 Template:Infobox
+ 63.06%  731.833      1 Template:Infobox_software
+ 50.85%  590.034      3 Template:Wikidata
+ 47.88%  555.665      1 Template:Infobox_software/simple
+ 46.09%  534.875     13 Template:If_empty
+ 17.81%  206.666      3 Template:Start_date_and_age
+ 17.43%  202.271     12 Template:Navbox
+  9.44%  109.574      1 Template:Firewall_software
+  8.08%   93.719      1 Template:Short_description
+-->
+
+<!-- Render ID 6c8fc136-41e1-11f1-b7bf-9dcba1aea18e -->
+
+<!-- Saved in parser cache with key enwiki:pcache:1003802:|#|:idhash:canonical and timestamp 20260427023307 and revision id 1322325353. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Netfilter&amp;oldid=1322325353">https://en.wikipedia.org/w/index.php?title=Netfilter&amp;oldid=1322325353</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Firewall_software" title="Category:Firewall software">Firewall software</a></li><li><a href="/wiki/Category:Free_network-related_software" title="Category:Free network-related software">Free network-related software</a></li><li><a href="/wiki/Category:Free_security_software" title="Category:Free security software">Free security software</a></li><li><a href="/wiki/Category:Linux_kernel_features" title="Category:Linux kernel features">Linux kernel features</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Pages_using_Infobox_software_with_version_errors" title="Category:Pages using Infobox software with version errors">Pages using Infobox software with version errors</a></li><li><a href="/wiki/Category:Official_website_different_in_Wikidata_and_Wikipedia" title="Category:Official website different in Wikidata and Wikipedia">Official website different in Wikidata and Wikipedia</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 15 November 2025, at 16:42<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a href="/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" title="Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License">Creative Commons Attribution-ShareAlike 4.0 License</a>;
+additional terms may apply. By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" class="extiw" title="foundation:Special:MyLanguage/Policy:Terms of Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" class="extiw" title="foundation:Special:MyLanguage/Policy:Privacy policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a rel="nofollow" class="external text" href="https://wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">Legal &amp; safety contacts</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.wikipedia.org/w/index.php?title=Netfilter&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="Search Wikipedia">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="Contents" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="en" dir="ltr"><span class="mw-page-title-main">Netfilter</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language"></span>
+
+<span>17 languages</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive"></span>
+
+<span>Add topic</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-5f84d9ff5f-w56h7","wgBackendResponseTime":147,"wgPageParseReport":{"limitreport":{"cputime":"1.058","walltime":"1.283","ppvisitednodes":{"value":2693,"limit":1000000},"revisionsize":{"value":23794,"limit":2097152},"postexpandincludesize":{"value":136295,"limit":2097152},"templateargumentsize":{"value":12163,"limit":2097152},"expansiondepth":{"value":23,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":64139,"limit":5000000},"entityaccesscount":{"value":2,"limit":500},"timingprofile":["100.00% 1160.453      1 -total"," 66.48%  771.470      2 Template:Infobox"," 63.06%  731.833      1 Template:Infobox_software"," 50.85%  590.034      3 Template:Wikidata"," 47.88%  555.665      1 Template:Infobox_software/simple"," 46.09%  534.875     13 Template:If_empty"," 17.81%  206.666      3 Template:Start_date_and_age"," 17.43%  202.271     12 Template:Navbox","  9.44%  109.574      1 Template:Firewall_software","  8.08%   93.719      1 Template:Short_description"]},"scribunto":{"limitreport-timeusage":{"value":"0.808","limit":"10.000"},"limitreport-memusage":{"value":26193461,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-56dfd6f675-8z2pg","timestamp":"20260427023307","ttl":79200,"transientcontent":true,"expiry-source":"Module:Time_ago (formatDate)"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Netfilter","url":"https:\/\/en.wikipedia.org\/wiki\/Netfilter","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1545633","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1545633","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-21T04:27:07Z","dateModified":"2025-11-15T16:42:38Z","headline":"packet alteration framework for Linux and the umbrella project for software of the same"}</script>
+</body>
+</html>

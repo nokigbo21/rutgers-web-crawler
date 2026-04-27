@@ -162,6 +162,11 @@ link_node_t *html_extract_links(const char *html, size_t html_len,
         free(href);
         if (!resolved) continue;
 
+        if (strstr(resolved, "/wiki/") && strchr(strstr(resolved, "/wiki/"), ':')) {
+            free(resolved);
+        continue;
+        }
+
         link_node_t *node = malloc(sizeof(*node));
         if (!node) { free(resolved); break; }
         node->url  = resolved;
